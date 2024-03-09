@@ -131,6 +131,10 @@ main .secondary {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.instagram-embeds {
+  margin-top: 20px;
+}
+
 footer {
   background-image: linear-gradient(rgba(45, 7, 72, 0.9), rgba(45, 7, 72, 0.9)),
     url("/images/ametista-footer.jpg");
@@ -183,16 +187,20 @@ footer .sign {
     padding: 60px 0;
   }
 
-  h1 {
+  header h1 {
     font-size: 45px;
     padding: 0;
   }
 
-  h2 {
+  header h2,
+  main h2 {
     font-size: 20px;
+    line-height: normal;
   }
 
-  h3 {
+  header h3,
+  main h3,
+  footer h3 {
     font-size: 18px;
   }
 
